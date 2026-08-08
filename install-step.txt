@@ -1,0 +1,5 @@
+npm i -D tsx typescript
+
+-------- shared ---------
+npm i pg pino pino-http zod -w shared
+npm i -D @types/express @types/node @types/pg typescript -w shared
