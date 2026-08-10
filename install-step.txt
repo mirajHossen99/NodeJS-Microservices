@@ -1,5 +1,14 @@
+----- root ------
+
+npm init -y
 npm i -D tsx typescript
+npm i express dotenv shared -w auth-service
+npm i -D @types/express @types/node tsx typescript -w auth-service
 
 -------- shared ---------
+npm init -y
 npm i pg pino pino-http zod -w shared
 npm i -D @types/express @types/node @types/pg typescript -w shared
+
+--------- auth-service --------
+npm init -y
