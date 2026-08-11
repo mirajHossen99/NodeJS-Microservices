@@ -4,6 +4,7 @@ npm init -y
 npm i -D tsx typescript
 npm i express dotenv shared -w auth-service
 npm i -D @types/express @types/node tsx typescript -w auth-service
+npm i dotenv
 
 -------- shared ---------
 npm init -y
