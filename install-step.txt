@@ -13,3 +13,7 @@ npm i -D @types/express @types/node @types/pg typescript -w shared
 
 --------- auth-service --------
 npm init -y
+
+
+---------- migrate ---------
+npm run db:migrate -- sql/001_users.sql
