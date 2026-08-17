@@ -5,6 +5,8 @@ npm i -D tsx typescript
 npm i express dotenv shared -w auth-service
 npm i -D @types/express @types/node tsx typescript -w auth-service
 npm i dotenv
+npm i bcryptjs jsonwebtoken -w auth-service
+npm i -D @types/bcryptjs @types/jsonwebtoken -w auth-service
 
 -------- shared ---------
 npm init -y
